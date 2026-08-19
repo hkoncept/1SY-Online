@@ -17,7 +17,7 @@ Programmez les mini-diagrammes de cas d'utilisation (UCD) suivants conformément
 
 ## 📚 Question 02 - Bibliothèque
 
-Sur un terminal indépendant dans une bibliothèque, un client peut soit rechercher un livre, soit le réserver pour plus tard s'il n'est pas possible de l'emprunter, car il est déjà sorti.
+Sur un terminal indépendant dans une bibliothèque, un client recherche un livre et peut le réserver pour plus tard s'il n'est pas possible de l'emprunter, car il est déjà sorti.
 
 Codez le diagramme de cas d'utilisation associé.
 
