@@ -1,4 +1,3 @@
-
 <p align="Center">
 <img src="../../includes/logo.png" alt="drawing" width="100"/>
 </p>
@@ -7,7 +6,10 @@
 1SY - Analyse Objet
 </h4>
 
-### TP1 - Analyse objet d'une application de location de véhicules
+<h3 align="Center">
+TP1 - Analyse objet d'une application de location de véhicules
+</h3>
+
 <p align="Center">
 <img src="../../includes/rentit.png" alt="drawing" width="400"/>
 </p>
@@ -84,8 +86,8 @@ Ce document doit minimalement contenir :
 
 Vous devez également remettre, individuellement sur Omnivox, un .zip du
 répertoire principal de travail où se trouvent les documents PlantUML.
+
 <hr>
 <p align="Center">
 <img src="../../includes/end.png" alt="drawing" width="150"/>
 </p>
-
