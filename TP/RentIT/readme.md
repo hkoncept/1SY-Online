@@ -77,7 +77,7 @@ propriétaires de RentIT.
 Ce document doit minimalement contenir :
 
 1.  Le diagramme de cas d'utilisation (en équipe).
-2.  Les [cas d'utilisation](./includes/UseCaseTemplate.zip) les plus
+2.  Les [cas d'utilisation](../../includes/uc-template.md) les plus
     importants selon votre jugement (un par étudiant, individuellement).
 3.  Le diagramme de séquence du cas d'utilisation au point #2 (un par
     étudiant, individuellement).
