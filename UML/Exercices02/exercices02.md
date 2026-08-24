@@ -45,11 +45,14 @@ conforme. Si elle l'est, il en informe l'employé, qui scanne, à l'aide
 d'un scanner régulier, son numéro de série afin de l'ajouter à la base
 de données de l'inventaire. Si la pièce n'est pas valide, une procédure
 de non-conformité est enclenchée. Cette procédure étant complexe, elle
-fait l'objet d'un cas d'utilisation en soi. \> 💡 Indiquez ce cas
-d'utilisation dans votre diagramme, mais ne le détaillez pas (`ref`).
+fait l'objet d'un cas d'utilisation en soi.
+
+> 💡 Indiquez ce cas d'utilisation dans votre diagramme, mais ne le détaillez pas (`ref`).
 
 Afin de pouvoir effectuer son travail, l'employé doit obligatoirement
-s'authentifier. \> 💡 Cas d'utilisation externe également.
+s'authentifier. 
+
+> 💡 Cas d'utilisation externe également.
 
 Programmez le diagramme de séquence de ce cas d'utilisation dans
 PlantUML.
