@@ -63,7 +63,7 @@ Transportons-nous dans le monde merveilleux des guichets automatiques
 d'institutions financières (pas les guichets mobiles).
 
 Discutez en équipe du fonctionnement de ces guichets et, en utilisant le
-template, élaborez un cas d'utilisation détaillé pour
+template, élaborez un  [cas d'utilisation détaillé](../../includes/uc-template.md) pour
 `retirer de l'argent` où il serait approprié d'utiliser au minimum un
 des cadres UML (`alt`, `opt` ou `loop`).
 
