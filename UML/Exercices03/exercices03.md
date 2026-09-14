@@ -37,7 +37,7 @@ Reprenez la solution du numéro 2, validée par l'enseignant, et ajoutez-y la po
 
 ## 😄 Question 04 - CSBuddySnap
 
-Dans notre réseau social de messages éphémères, un membre, `Member` (nom), peut se faire de 1 à 5000 amis `Friend`. Pour ce qui est des communications, il sera possible, bien entendu, de communiquer à deux (tout comme dans Messenger), mais aussi de créer un groupe `Group` (nom) s'il y a au moins une personne de plus dans la conversation. Nous désirons finalement être en mesure de célébrer les anniversaires d’amitié.
+Dans notre réseau social de messages éphémères, un membre, `Member` (nom), peut se faire de 1 à 5000 amis. Pour ce qui est des communications, il sera possible, bien entendu, de communiquer à deux (tout comme dans Messenger), mais aussi de créer un groupe `Group` (nom) s'il y a au moins une personne de plus dans la conversation. Nous désirons finalement être en mesure de célébrer les anniversaires d’amitié.
 
 > Prétendons ici que nous ne conservons aucun historique des conversations.
 
