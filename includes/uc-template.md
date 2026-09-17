@@ -39,6 +39,10 @@ _Inscrire de façon numérotée, chacune des interactions entre les différents 
 5. _L'utilisateur clique sur un produit._
 6. _[...]_
 
+### Scénarios alternatifs
+
+_Expliquer ici les chemins alternatifs que peuvent prendre les point de forme du scénario nominal._
+
 ### Postconditions
 
 _Qu'est-ce qui est vrai dans le système lorsque le cas d'utilisation est terminé, l'état du système ?_
