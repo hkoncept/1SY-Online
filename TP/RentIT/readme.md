@@ -69,9 +69,7 @@ Un véhicule peut être placé hors circulation pour de multiples raisons
 
 ## Votre mandat
 
-Effectuer l'analyse objet de l'application RentIT.
-
-Vous devrez élaborer un document Word propre qui sera remis aux
+Effectuer l'analyse objet de l'application RentIT qui sera remis aux
 propriétaires de RentIT.
 
 Ce document doit minimalement contenir :
@@ -84,8 +82,8 @@ Ce document doit minimalement contenir :
 4.  Le modèle du domaine (en équipe).
 5.  Le diagramme d'état d'une voiture (en équipe).
 
-Vous devez également remettre, individuellement sur Omnivox, un .zip du
-répertoire principal de travail où se trouvent les documents PlantUML.
+Vous devez remettre, individuellement sur Omnivox, un .zip du
+répertoire principal de travail où se trouvent les documents PlantUML et .md.
 
 <hr>
 <p align="Center">
