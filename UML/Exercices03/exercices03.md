@@ -7,15 +7,15 @@
 
 ## 👩‍🍳 Question 01 - Les recettes de madame Giblotte
 
-Considérant ces entités :
+Considérant seulement ces entités :
 
 - `Book` (livre)
 - `Recipe` (recette)
 - `Ingredient` (ingrédient)
 
-1. Dessinez le modèle du domaine d’un livre de recettes contenant de 50 à 75 recettes ainsi que des trucs et astuces beauté.
+1. Dessinez le modèle du domaine d’un livre de recettes contenant de 50 à 75 recettes génériques ainsi que des trucs et astuces beauté.
 
-2. Dessinez le modèle du domaine d'un livre uniquement composé de recettes au nombre exact de 100.
+2. Dessinez le modèle du domaine d'un livre composé seulement de recettes uniques au nombre exact de 100.
 
 ## ✍️ Question 02 - ZenLease
 
