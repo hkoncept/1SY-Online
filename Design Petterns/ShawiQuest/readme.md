@@ -44,7 +44,8 @@ Game Over!
 Press any key to replay...
 ```
 
-
+# À suivre, après la pause...
+<!-- 
 > ⚠️ Présentez votre solution à l'enseignant pour obtenir les points associés. 
 
 ## Version 1.1 - La ligne de vie
@@ -182,5 +183,5 @@ Press any key to continue...
 > ⚠️ Présentez votre solution à l'enseignant pour obtenir les points associés. 
 
 > ⚠️ Remettez un zip de vos solutions sur Léa.
-
+ -->
 <hr><p align="Center"><img src="../../includes/end.png" alt="drawing" width="150"/></p>
