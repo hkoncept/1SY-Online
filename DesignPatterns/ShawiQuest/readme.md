@@ -82,7 +82,7 @@ Press any key to replay...
 ```
 > ⚠️ Présentez votre solution à l'enseignant pour obtenir les points associés. 
 
-<!-- ## Version 1.2 - La trame sonore
+## Version 1.2 - La trame sonore
 On vous demande maintenant d'ajouter du son à l'application selon que le joueur reçoive un coup ou se guérisse.
 
 ### Classe `SoundManager`
@@ -134,7 +134,8 @@ Press any key to replay...
 
 > ⚠️ Présentez votre solution à l'enseignant pour obtenir les points associés. 
 
-## Version 2.0 - Merci Observer !
+<!-- 
+## Version 2.0 - Merci d'observer !
 Reprennez l'énoncé complet de la version 1 (1.0 à 1.3) et reprogrammez l'application en utilisant le pattert `Observer` et en respectant les `PACOO`.
 
 > ⚠️ Présentez votre solution à l'enseignant pour obtenir les points associés. 
