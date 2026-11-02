@@ -43,11 +43,11 @@ Game Over!
 
 Press any key to replay...
 ```
+> ⚠️ Présentez votre solution à l'enseignant pour obtenir les points associés.
 
 # À suivre, après la pause...
-<!-- 
-> ⚠️ Présentez votre solution à l'enseignant pour obtenir les points associés. 
 
+<!--
 ## Version 1.1 - La ligne de vie
 Vous devez maintenant programmer la barre de vie qui apparaîtrait en haut de l'écran du jeu...
 ### Classe `HealthBar`
