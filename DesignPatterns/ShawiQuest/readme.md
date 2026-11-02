@@ -47,7 +47,7 @@ Press any key to replay...
 
 # À suivre, après la pause...
 
-<!--
+
 ## Version 1.1 - La ligne de vie
 Vous devez maintenant programmer la barre de vie qui apparaîtrait en haut de l'écran du jeu...
 ### Classe `HealthBar`
@@ -82,7 +82,7 @@ Press any key to replay...
 ```
 > ⚠️ Présentez votre solution à l'enseignant pour obtenir les points associés. 
 
-## Version 1.2 - La trame sonore
+<!-- ## Version 1.2 - La trame sonore
 On vous demande maintenant d'ajouter du son à l'application selon que le joueur reçoive un coup ou se guérisse.
 
 ### Classe `SoundManager`
