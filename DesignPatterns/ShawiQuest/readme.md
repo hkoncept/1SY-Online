@@ -180,6 +180,15 @@ Game Over!
 
 Press any key to continue...
 ```
+## ⚠️ Consignes à suivre pour approbation ⚠️
+1. Ne pas utiliser de variables privées pour les propriétés. 
+2. C'est le setter du `HealPoints` qui déclenche le `notify()`;
+3. Retirer toute double typage lors de l'instanciation d'une variable.
+4. Utiliser seulement un paramètre `delta` dans `Update` de `IObserver`.`
+5. Les limites de valeurs permises dans les `IObserver` sont configurées lors de la création.
+
+> Pour des raison pédagogiques, il est permis (mais pas obligatoire) de transformer le `IObserver` en classe abstraite.
+
 > ⚠️ Présentez votre solution à l'enseignant pour obtenir les points associés. 
 
 > ⚠️ Remettez un zip de vos solutions sur Léa.
