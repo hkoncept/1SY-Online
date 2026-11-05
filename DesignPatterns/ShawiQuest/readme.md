@@ -186,6 +186,7 @@ Press any key to continue...
 3. Retirer toute double typage lors de l'instanciation d'une variable.
 4. Utiliser seulement un paramètre `delta` dans `Update` de `IObserver`.`
 5. Les limites de valeurs permises dans les `IObserver` sont configurées lors de la création.
+6. Si nous devons initialiser la valeur initiale des `IObserver`, elle sera fixée à l'endroit optimal.
 
 > Pour des raison pédagogiques, il est permis (mais pas obligatoire) de transformer le `IObserver` en classe abstraite.
 
