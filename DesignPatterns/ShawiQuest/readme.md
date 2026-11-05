@@ -181,7 +181,7 @@ Game Over!
 Press any key to continue...
 ```
 ## ⚠️ Consignes à suivre pour approbation ⚠️
-1. Ne pas utiliser de variables privées pour les propriétés. 
+1. Ne pas utiliser de variables privées pour les propriétés.  Lire sur le champ `field`! 
 2. C'est le setter du `HealPoints` qui déclenche le `notify()`;
 3. Retirer toute double typage lors de l'instanciation d'une variable.
 4. Utiliser seulement un paramètre `delta` dans `Update` de `IObserver`.`
