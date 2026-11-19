@@ -1,12 +1,10 @@
 <p align="Center"><img src="../../includes/logo.png" alt="drawing" width="100"/></p>
 <h4 align="Center">1SY - Analyse Objet</h4>
-<p align="Center"><img src="../../includes/ShawiQuest.png" alt="drawing" width="300"/></p>
+<p align="Center"><img src="includes/ShawiQuestArena.png" alt="drawing" width="300"/></p>
 
-# 🏋🏻‍♂️ ShawiQuest Arena
+### Simulation fonctionnelle d'un jeu de rôle en mode duel.
 
-Simulation fonctionnelle d'un jeu de rôle en mode duel.
-
-## Mandat
+# Mandat
 
 Deux joueurs s’affrontent à tour de rôle sur la même console. Créez deux instances distinctes de la classe `Player`. Chacune possède ses propres HP et sa propre arme équipée. La même logique de jeu sert aux deux participants, qui deviennent tour à tour attaquant et adversaire.
 
@@ -15,8 +13,8 @@ Développez le jeu complet avec trois armes (Quel'Serrar, Arcanite Reaper et Sha
 Votre travail sera évalué sur son fonctionnement et sur votre capacité à utiliser correctement les design patterns. Vous devrez notamment expliquer comment votre conception permet d’ajouter une arme, un enchantement ou une réaction au résultat d’une attaque.
 
 Les noms d’armes et d’enchantements proviennent de *World of Warcraft*. Les probabilités, les dégâts et le cumul des effets suivent les règles de ce TP.
-## 1. Classes à utiliser (minimalement)
-### Classes de structure
+# 1. Classes à utiliser (minimalement)
+## Classes de structure
 | Classe | Patron ou rôle | Responsabilité |
 |---|---|---|
 | `Main` | Déroulement de la partie | Crée les deux joueurs, gère les choix humain ou ordinateur et alterne les tours. À chaque tour, équipe l’arme choisie, prépare l’attaque avec `AttackBuilder`, appelle `Player.Attack`. |
@@ -25,14 +23,14 @@ Les noms d’armes et d’enchantements proviennent de *World of Warcraft*. Les 
 | `Attack` | Données | Conserve l'arme choisi incluant les enchantements ainsi que la force initiale. |
 | `GameSettings` | Paramètres du jeu | Regroupe les constantes, dont les 100 PV initiaux, les bornes du tirage, les seuils des armes, les charges d’enchantement et le délai entre les tours automatiques. |
 
-### Liste des armes
+## Liste des armes
 | Classe | Patron ou rôle | Responsabilité |
 |---|---|---|
 | `QuelSerrar` | Stratégie (*Strategy*) | Calcule les dégâts de **Quel'Serrar**. L’attaque touche toujours et inflige `tirage + 1`. |
 | `ArcaniteReaper` | Stratégie (*Strategy*) | Calcule les dégâts d’**Arcanite Reaper**. Sous 13, l’attaque échoue. À partir de 13, elle inflige `tirage + tirage / 2`, en division entière. |
 | `Shadowmourne` | Stratégie (*Strategy*) | Calcule les dégâts de **Shadowmourne**. Sous 15, l’attaque échoue. À partir de 15, elle inflige `tirage × 2`. |
 
-### Liste des enchantements
+## Liste des enchantements
 
 | Classe | Patron ou rôle | Responsabilité |
 |---|---|---|
@@ -44,13 +42,13 @@ Les noms d’armes et d’enchantements proviennent de *World of Warcraft*. Les 
 
 
 
-## 2. Faire jouer une partie complète
+# 2. Faire jouer une partie complète
 
-### Configurer les deux participants
+## Configurer les deux participants
 
 Avant le premier tour, configurez **Joueur1**, puis **Joueur2**. Pour chacun, demandez son **nom** et son **mode de contrôle** : Humain ou Ordinateur.
 
-### Jouer un tour
+## Jouer un tour
 
 | État initial de chaque joueur | Valeur |
 | --- | --- |
@@ -63,7 +61,7 @@ Pour un **humain**, recueillez les décisions au clavier. Pour un **ordinateur**
 
 À la confirmation, résolvez une attaque contre l’autre joueur. Affichez le résultat de chaque coup. Dès que la cible atteint 0 HP, annoncez le gagnant et terminez le duel. Les HP ne descendent jamais sous zéro. Si les deux joueurs sont encore en vie, échangez leurs rôles : l’adversaire dispose maintenant d’un tour complet pour préparer sa propre attaque.
 
-### Durée d’un duel entre deux ordinateurs
+## Durée d’un duel entre deux ordinateurs
 
 Visez **10 tours de jeu en moyenne pour une durée totale d’environ 30 secondes**. Un tour correspond à l’action d’un seul joueur. Le duel prend fin dès qu’un joueur atteint 0 HP, que ce soit avant ou après le dixième tour.
 
@@ -71,7 +69,7 @@ Visez **10 tours de jeu en moyenne pour une durée totale d’environ 30 seconde
 
 Affichez les choix de l’ordinateur, **attendez 3 secondes**, puis résolvez le tour et affichez son résultat.
 
-## 2. Choisir son arme
+# 2. Choisir son arme
 
 Au moment de créer une attaque, il faut obtenir aléatoirement la force, `Strength (r)` de l'attaque **10 à 20 inclusivement**.
 
@@ -87,7 +85,7 @@ Pour les armes susceptibles de rater, tirez la réussite indépendamment des dé
 
 **Exemple comparatif.** L’attaquant possède 55 HP, la cible 35 HP et le tirage vaut 17. Sans enchantement, un coup réussi de Quel'Serrar vaut **20** (17 + 1 + 2), celui d’Arcanite Reaper **29** (17 + 8 + 4) et celui de Shadowmourne **43** (34 + 3 × 3). Dans ce dernier cas, le journal annonce une perte réelle de **35 HP**.
 
-## 3. Préparer le coup avant de le confirmer
+# 3. Préparer le coup avant de le confirmer
 
 Les deux joueurs débutent avec **3 de chacune des charges d’enchantement pour toute la partie**. À zéro, les deux joueurs poursuivent le combat avec leurs armes ordinaires.
 
@@ -117,7 +115,7 @@ Le menu doit offrir deux actions distinctes.
 | Quel'Serrar — Crusader → Fiery Weapon → Berserking | (max(11, 15) + 3) × 2 | 36 |
 | Quel'Serrar — Fiery Weapon → Berserking → Crusader | max((11 + 3) × 2, 15) | 28 | -->
 
-## 4. Réagir aux attaques et aux blessures
+# 4. Réagir aux attaques et aux blessures
 
 Le **journal** observe les HP des deux joueurs. À chaque blessure, il identifie le joueur touché et affiche sa perte réelle et ses HP restants. Si le joueur 2 possède 2 HP et reçoit un coup de 3 dégâts, le journal annonce une perte de 2 HP.
 
