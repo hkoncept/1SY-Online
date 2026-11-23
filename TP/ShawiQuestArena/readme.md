@@ -4,6 +4,8 @@
 
 # Simulation fonctionnelle d’un jeu de rôle en mode duel (v0.8)
 
+Utilisez le [projet de départ](./includes/1SY-ShawiQuestArena-Init.zip).
+
 ## Mandat
 
 Deux joueurs s’affrontent à tour de rôle sur la même console. Créez deux instances distinctes de la classe `Player`. Chaque joueur possède ses propres points de vie (HP) et sa propre arme. La même logique de jeu s’applique aux deux combattants.
