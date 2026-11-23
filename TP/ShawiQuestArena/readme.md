@@ -25,7 +25,7 @@ Les probabilités de réussite, le calcul des dégâts et le cumul des effets su
 | Classe | Patron ou rôle | Responsabilité |
 |---|---|---|
 | `Main` | Algorithme principal | Crée les deux joueurs et gère l’alternance des tours. À chaque tour, équipe le joueur actif de l’arme choisie, prépare l’attaque et ses enchantements avec `AttackBuilder`, puis appelle `Player.Attack`. |
-| `Player` | Objet observable | Conserve le nom du joueur, ses HP, son arme équipée et sa réserve personnelle d’enchantements. Déclenche l’attaque représentée par l’objet `Attack` et en applique les effets à l’adversaire à l’aide de la méthode `ManageAttack`. |
+| `Player` | Objet observable | Conserve le nom du joueur, ses HP, son arme équipée et sa réserve personnelle d’enchantements. Déclenche l’attaque représentée par l’objet `Attack` et en applique les effets à l’adversaire à l’aide de la méthode `HandleAttack`. |
 | `AttackBuilder` | [Constructeur (*Builder*)](https://refactoring.guru/design-patterns/builder) | Prépare une attaque pour le joueur actif. La méthode `UseEnchantment` ajoute l’enchantement choisi si une charge est disponible, puis renvoie `this` pour permettre le chaînage des appels. La méthode `Build` construit et renvoie un objet `Attack`. |
 | `Attack` | Données de l’attaque | Conserve l’arme choisie avec ses enchantements, ainsi que la force initiale `S`. Transmet également le résultat final de l’attaque aux composants concernés. |
 | `GameSettings` | Classe statique | Regroupe toutes les constantes du jeu. Utilisez cette classe pour paramétrer le jeu. |
