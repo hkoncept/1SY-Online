@@ -28,6 +28,15 @@ Les probabilités de réussite, le calcul des dégâts et le cumul des effets su
 | `Attack` | Données de l’attaque | Conserve l’arme choisie avec ses enchantements, ainsi que la force initiale `S`. Transmet également le résultat final de l’attaque aux composants concernés. |
 | `GameSettings` | Classe statique | Regroupe toutes les constantes du jeu. Utilisez cette classe pour paramétrer le jeu. |
 
+### Exemple d'utilisation du AttackBuilder
+
+```csharp
+Attack attack = attackBuilder.Instance.UseEnchantment(EnchantmentType.Fiery)
+             .UseEnchantment(EnchantmentType.Crusader)
+             .UseEnchantment(EnchantmentType.Berzerking)
+             .Build();
+```
+
 ### Liste des armes
 
 | Classe | Patron | Probabilité de réussite | Dégâts en cas de réussite |
