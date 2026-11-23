@@ -31,10 +31,12 @@ Les probabilités de réussite, le calcul des dégâts et le cumul des effets su
 ### Exemple d'utilisation du AttackBuilder
 
 ```csharp
-Attack attack = attackBuilder.Instance.UseEnchantment(EnchantmentType.Fiery)
-             .UseEnchantment(EnchantmentType.Crusader)
-             .UseEnchantment(EnchantmentType.Berzerking)
-             .Build();
+Attack attack = AttackBuilder.Instance
+                .UseWeapon(player.WeaponType)
+                .UseEnchantment(EnchantmentType.Fiery)
+                .UseEnchantment(EnchantmentType.Crusader)
+                .UseEnchantment(EnchantmentType.Berzerking)
+                .Build();
 ```
 
 ### Liste des armes
