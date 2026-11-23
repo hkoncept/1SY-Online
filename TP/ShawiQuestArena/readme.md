@@ -4,7 +4,7 @@
 
 # Simulation fonctionnelle d’un jeu de rôle en mode duel (v0.8)
 
-Utilisez le [projet de départ](./includes/1SY-ShawiQuestArena-Init.zip).
+Utilisez le [projet de départ](./includes/1SY-ShawiQuestArena_Init.zip).
 
 ## Mandat
 
@@ -28,7 +28,7 @@ Les probabilités de réussite, le calcul des dégâts et le cumul des effets su
 | `Player` | Objet observable | Conserve le nom du joueur, ses HP, son arme équipée et sa réserve personnelle d’enchantements. Déclenche l’attaque représentée par l’objet `Attack` et en applique les effets à l’adversaire à l’aide de la méthode `HandleAttack`. |
 | `AttackBuilder` | [Constructeur (*Builder*)](https://refactoring.guru/design-patterns/builder) | Prépare une attaque pour le joueur actif. La méthode `UseEnchantment` ajoute l’enchantement choisi si une charge est disponible, puis renvoie `this` pour permettre le chaînage des appels. La méthode `Build` construit et renvoie un objet `Attack`. |
 | `Attack` | Données de l’attaque | Conserve l’arme choisie avec ses enchantements, ainsi que la force initiale `S`. Transmet également le résultat final de l’attaque aux composants concernés. |
-| `GameSettings` | Classe statique | Regroupe toutes les constantes du jeu. Utilisez cette classe pour paramétrer le jeu. |
+| `GameSettings` | Classe statique | [Classe déjà programmée](./includes/GameSettings.csx).  Elle regroupe toutes les constantes du jeu que vous devez utiliser. |
 
 ### Exemple d'utilisation du AttackBuilder
 
